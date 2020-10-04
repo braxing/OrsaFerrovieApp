@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_drawer">Close Menu</string>
+    <string name="facebook_text">Visit our Facebook page</string>
+    <string name="open_drawer">Open Menu</string>
+    <string name="twitter_text">Follow us on twitter</string>
+    <string name="loadingtext">Loading...please wait</string>
+    <string name="updateText">Update</string>
+    <string name="download_message">File is downloading, please wait...</string>
+    <string name="download_error">Download error, please retry</string>
+    <string name="imgnotizia_cd">news type</string>
+    <string name="notification_text">News from ORSA!</string>
+    <string name="dialog_permission">Without permission to write on your memory device the app can\'t work properly. To proceed grant the permission please</string>
+    <string name="dilaog_permission_title">Permission request</string>
+</resources>

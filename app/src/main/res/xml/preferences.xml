@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Scegli le tue preferenze">
+        <CheckBoxPreference android:key="autoupdate"
+                            android:defaultValue="true"
+                            android:title="Aggiornamento automatico" />
+        <ListPreference android:key="intervalupdate"
+                            android:title="Frequenza di aggiornamento"
+                            android:defaultValue="900000"
+                            android:summary="Seleziona ogni quante ore vuoi eseguire l'update delle notizie (avrà effetto dal prossimo avvio del sistema)"
+                            android:dependency="autoupdate"
+                            android:entries="@array/testi_ore"
+                            android:entryValues="@array/valori_ore" />
+    </PreferenceCategory>
+</PreferenceScreen>

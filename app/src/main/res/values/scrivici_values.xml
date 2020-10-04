@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scrivici_text" translatable="false">Scrivi alla\nSegreteria Generale OR.S.A. Ferrovie</string>
+    <string name="address_orsa" translatable="false">
+        Segreteria Generale OR.S.A. Ferrovie\n\n
+        Via Magenta n° 13 - 00185 Roma\n\n
+Tel 06/4456789 - FS 970/66892 970/66894\nFax 06/44104333 - FS 970/24333\n\n
+Email: sg.orsaferrovie@sindacatoorsa.it\nPEC: sg.orsaferrovie@pec.sindacatoorsa.it</string>
+    <string name="logo_content_description" translatable="false">Logo ORSA Ferrovie</string>
+</resources>

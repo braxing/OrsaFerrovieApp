@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">OR.S.A. Ferrovie</string>
+    <string name="title_activity_main" translatable="false">O.R.SA. Ferrovie</string>
+    <string name="facebook_page" translatable="false">https://it-it.facebook.com/orsa.ferrovie</string>
+    <string name="twitter_page" translatable="false">https://twitter.com/orsaferrovie</string>
+    <string name="open_drawer">Apri il menu</string>
+    <string name="close_drawer">Chiudi il menu</string>
+    <string name="drawer_title" translatable="false">Orsa Menu</string>
+    <string name="file_notizie" translatable="false">com.dipasoft.orsaferrovie.filenotizie</string>
+    <string name="updateText">Aggiorna</string>
+    <string name="strurl" translatable="false">http://www.orsaferrovie.it/fragments/index.html</string>
+    <string name="base_url" translatable="false">http://www.sindacatoorsa.it/orsa_ferrovie/</string>
+    <string name="download_message">Sto scaricando il file, attendere...</string>
+    <string name="donwload_title" translatable="false">Downloading</string>
+    <string name="download_error">Errore nel download, riprova</string>
+    <string name="orsa_address" translatable="false">sg.orsaferrovie@sindacatoorsa.it</string>
+    <string name="imgnotizia_cd">Tipo notizia</string>
+    <string name="notification_text">Nuove notizie da OR.S.A. Ferrovie</string>
+    <string name="dialog_permission">Senza il permesso di salvare i file nella memoria del dispositivo l\'applicazione non può visualizzarli. Per la piena funzionalità concedere l\'autorizzazione</string>
+    <string name="dilaog_permission_title">Richiesta permessi</string>
+    <string name="pref_firstTime" translatable="false">firstTimeChecker</string>
+</resources>

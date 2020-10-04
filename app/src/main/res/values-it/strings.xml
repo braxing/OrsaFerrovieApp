@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="imgnotizia_cd">Tipo notizia</string>
+    <string name="twitter_text">Seguici sul nostro profilo twitter</string>
+    <string name="loadingtext">Caricamento notizie in corso...</string>
+    <string name="open_drawer">Apri il menu</string>
+    <string name="updateText">Aggiorna</string>
+    <string name="facebook_text">Visita la nostra pagina facebook!</string>
+    <string name="download_message">Sto scaricando il file, attendere...</string>
+    <string name="download_error">Errore nel download, riprova</string>
+    <string name="close_drawer">Chiudi il menu</string>
+    <string name="notification_text">Nuove notizie da OR.S.A. Ferrovie</string>
+    <string name="dialog_permission">l\'autorizzazione</string>
+    <string name="dilaog_permission_title">Richiesta permessi</string>
+</resources>

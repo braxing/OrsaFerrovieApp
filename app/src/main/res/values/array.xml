@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valori_ore" translatable="false">
+        <item>900000</item>
+        <item>1800000</item>
+        <item >3600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+    </string-array>
+    <string-array name="testi_ore" translatable="false">
+        <item>Ogni 15 minuti</item>
+        <item>Ogni mezzora</item>
+        <item>Ogni ora</item>
+        <item>Ogni 12 ore</item>
+        <item>Ogni 24 ore</item>
+    </string-array>
+    <string-array name="lst_menu" translatable="false">
+        <item>Ultime notizie</item>
+        <item>Scrivici</item>
+        <item>OR.S.A sui Social</item>
+        <item>Impostazioni</item>
+    </string-array>
+</resources>
