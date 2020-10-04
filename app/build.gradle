@@ -9,7 +9,7 @@ android {
             storePassword 'Drago3x.KS'
         }
     }
-    compileSdkVersion 25
+    compileSdkVersion 29
     buildToolsVersion '29.0.2'
     defaultConfig {
         applicationId "it.orsaferrovie.orsaferrovieapp"
@@ -41,16 +41,22 @@ android {
     productFlavors {
     }
     dependenciesInfo {
-        includeInApk true
-        includeInBundle true
+        includeInApk false
+        includeInBundle false
     }
 }
 
 dependencies {
+    def appcompat_version = "1.2.0"
+    def preference_version = "1.1.1"
+
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.squareup.picasso:picasso:2.5.2'
-    implementation 'com.android.support:appcompat-v7:25.4.0'
-    implementation 'com.android.support:support-v4:25.4.0'
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
+    implementation "androidx.preference:preference:$preference_version"
+
+
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
     implementation 'com.squareup.okhttp3:okhttp:3.9.0'
     implementation 'com.squareup.okio:okio:1.13.0'

@@ -8,14 +8,14 @@ import android.app.Fragment;
 
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
-import android.preference.PreferenceManager;
-import android.support.v4.preference.PreferenceFragment;
+import androidx.preference.PreferenceManager;
+import androidx.preference.PreferenceFragmentCompat;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SettingsFragment extends PreferenceFragment implements Preference.OnPreferenceChangeListener{
+public class SettingsFragment extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener{
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

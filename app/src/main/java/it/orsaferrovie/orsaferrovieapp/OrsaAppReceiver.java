@@ -1,17 +1,14 @@
 package it.orsaferrovie.orsaferrovieapp;
 
 import android.app.AlarmManager;
-import android.app.AlertDialog;
-import android.app.Application;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-import android.support.v4.preference.PreferenceManagerCompat;
+import androidx.preference.PreferenceManager;
 import android.util.Log;
-import android.widget.Toast;
+
 ///*    Questo broadcast riceve l'evento boot del sistema e provvede ad attivare l'allarme con alarmmanager
 ///     Contiene inoltre i metodi per attivare, tramite alarmmanager l'aggiornamento ogni tot*///
 

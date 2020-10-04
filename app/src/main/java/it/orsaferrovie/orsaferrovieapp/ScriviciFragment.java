@@ -1,14 +1,10 @@
 package it.orsaferrovie.orsaferrovieapp;
 
-
-import android.app.Fragment;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
+import androidx.fragment.app.Fragment;
 
 
 /**
@@ -16,7 +12,7 @@ import android.widget.ImageButton;
  * Use the {@link ScriviciFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ScriviciFragment extends android.support.v4.app.Fragment {
+public class ScriviciFragment extends Fragment {
 
 
 
