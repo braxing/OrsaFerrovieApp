@@ -8,8 +8,8 @@
     <string name="drawer_title" translatable="false">Orsa Menu</string>
     <string name="file_notizie" translatable="false">com.dipasoft.orsaferrovie.filenotizie</string>
     <string name="updateText">Aggiorna</string>
-    <string name="strurl" translatable="false">http://www.orsaferrovie.it/fragments/index.html</string>
-    <string name="base_url" translatable="false">http://www.sindacatoorsa.it/orsa_ferrovie/</string>
+    <string name="strurl" translatable="false">https://www.sindacatoorsa.it/orsa_ferrovie/fragments/index.html</string>
+    <string name="base_url" translatable="false">https://www.sindacatoorsa.it/orsa_ferrovie/</string>
     <string name="download_message">Sto scaricando il file, attendere...</string>
     <string name="donwload_title" translatable="false">Downloading</string>
     <string name="download_error">Errore nel download, riprova</string>

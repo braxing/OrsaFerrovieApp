@@ -1,13 +1,14 @@
 package it.orsaferrovie.orsaferrovieapp;
 
 
+
 import android.content.ComponentName;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.app.Fragment;
+import androidx.fragment.app.Fragment;
 
-import android.preference.CheckBoxPreference;
-import android.preference.Preference;
+import androidx.preference.CheckBoxPreference;
+import androidx.preference.Preference;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceFragmentCompat;
 
@@ -18,8 +19,8 @@ import androidx.preference.PreferenceFragmentCompat;
 public class SettingsFragment extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener{
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreatePreferences(Bundle savedInstanceState, String rootkey) {
+        //super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.preferences);
         findPreference("autoupdate").setOnPreferenceChangeListener(this);
     }

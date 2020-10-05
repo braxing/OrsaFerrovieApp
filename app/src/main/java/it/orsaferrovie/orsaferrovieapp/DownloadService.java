@@ -38,7 +38,7 @@ import okhttp3.Response;
 
 public class DownloadService extends IntentService {
     private static OkHttpClient okClient;
-    private static String BASE_URL = "http://www.sindacatoorsa.it/orsa_ferrovie/";
+    private static String BASE_URL = "https://www.sindacatoorsa.it/orsa_ferrovie/";
     private boolean nuovenotizie = false;
     private DatiAggiornatiListener mListener;
     public final Binder mBinder = new LocalBinder();
