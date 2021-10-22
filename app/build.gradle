@@ -14,10 +14,10 @@ android {
     defaultConfig {
         applicationId "it.orsaferrovie.orsaferrovieapp"
         minSdkVersion 19
-        targetSdkVersion 28
-        versionName '1.0.7.4 N'
+        targetSdkVersion 29
+        versionName '1.0.7.5 N'
         signingConfig signingConfigs.DipaSign
-        versionCode 11
+        versionCode 12
     }
     buildTypes {
         release {

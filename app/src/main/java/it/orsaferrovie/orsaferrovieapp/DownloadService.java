@@ -172,6 +172,7 @@ public class DownloadService extends IntentService {
                     link = tr.select("a").first().attr("href"),
                     imageUri = tr.select("img").first().attr("src");
             if (imageUri.isEmpty()) imageUri = "images/news/OrsaNews.gif";
+            link = link.replaceFirst("/reader\\.php\\?f=/orsa_ferrovie/", "");
             link = isAbsoluteURL(link)?link:BASE_URL+link;
             imageUri = isAbsoluteURL(imageUri)?imageUri:BASE_URL+imageUri;
             notizieTotal.add(new Notizia(giorno, testo, link, imageUri));
